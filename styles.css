@@ -1,0 +1,98 @@
+/* Styles for the website */
+
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:600');
+@import url('http://fonts.googleapis.com/css?family=Sansita+One');
+
+body {
+  background-color: #272324;
+  color: #E4D8B4;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+.buttons_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+/*Styling the buttons */
+button {
+  outline: none;
+  margin: 30px;
+  padding: 15px 30px;
+  width: 7em;
+  font-size: 2em;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #2d543d;
+  text-shadow: 1px 1px #83B799;
+  background-color: #5b9b76;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  text-transform: uppercase;
+  box-shadow: -1px -1px 5px #899095,
+  inset 0.5rem 0.5rem 0.25rem #83B799;
+}
+
+/* Changing look of button on click */
+button:active {
+  box-shadow: -1px -1px 5px #899095,
+  inset 0.3rem 0.3rem 0.25rem #2d543d;
+}
+
+/* Different style for reset button */
+#reset {
+  color: #9E403A;
+  text-shadow: 1px 1px #B88E8C;
+  background-color: #E86F68;
+  box-shadow: -1px -1px 5px #899095,
+  inset 0.5rem 0.5rem 0.25rem #F28B85;
+}
+
+#reset:active {
+  box-shadow: -1px -1px 5px #899095,
+  inset 0.3rem 0.3rem 0.25rem #8C3732;
+}
+
+/* Styles for instructions */
+h1, h2 {
+  margin-top: 90px;
+  font-family: 'Sansita One', sans-serif;
+  font-size: 64px;
+  text-align: center;
+  color: #E4D8B4;
+  text-shadow: 4px 4px 0px #272324, 6px 6px 0px #475056;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: left;
+  font-size: 32px;
+}
+
+p {
+  font-family: "Calibri", sans-serif;
+  font-size: 1.2em;
+}
+
+.guide_container {
+  margin: auto;
+  width: 60%;
+}
+
+.category {
+  margin: 90px 0;
+  width: 100%;
+  padding: 20px;
+  border-radius: 40px;
+  border: 2px solid #E86F68;
+  box-shadow: 4px 4px 0px #272324, 6px 6px 0px #E2CD6D;
+}
+

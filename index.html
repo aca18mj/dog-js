@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="author" content="Michal Jarmocik">
+    <title>Assignment 2</title>
+</head>
+<body>
+
+<canvas id="canvas" width="1200" height="600"></canvas>
+
+<!-- Buttons -->
+<div class="buttons_container">
+    <button name="standUp" id="standUp">Stand Up</button>
+    <button name="sitDown" id="sitDown">Sit down</button>
+    <button name="sleep" id="sleep">Sleep</button>
+    <button name="reset" id="reset">Reset</button>
+</div>
+<script src="functions.js"></script>
+
+<!-- Instructions how to use software -->
+<h1>Use guide:</h1>
+
+<div class="guide_container">
+    <div class="category">
+        <h2>Buttons:</h2>
+        <p>There are 4 buttons that control Dog's behaviour</p>
+        <p>The "Stand Up", "Sit Down", "Sleep" buttons change position of the Dog accordingly</p>
+        <p>The "Reset" button changes Dog's position to default</p>
+    </div>
+    <div class="category">
+    <h2>Mouse:</h2>
+    <p>Depending where user click relatively to Dog's position different effect may be applied</p>
+    <p>When click above the dog - if the Dog is standing then it will reach up, if the Dog is lying on the ground then
+        he will get up</p>
+    <p>When click beneath the Dog - if the Dog is reaching then it will stand down, if the Dog is already standing then
+        it will lie down.</p>
+    <p>When click on the front leg when standing - Dog will raise it's paw to shake it</p>
+    </div>
+</div>
+</body>
+</html>
